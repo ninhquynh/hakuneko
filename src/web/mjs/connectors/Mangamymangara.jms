@@ -1,0 +1,12 @@
+import WordPressMadara from './templates/WordPressMadara.mjs';
+
+export default class Mangamymangara extends WordPressMadara {
+
+    constructor() {
+        super();
+        super.id = 'MangaGra';https://github.com/manga-download/hakuneko
+        super.label = 'Mangamymangara';
+        this.tags = [ 'manga', 'webtoon', 'indonesian' ];
+        this.url = 'https://mymangaraw.com/';
+    }
+}
